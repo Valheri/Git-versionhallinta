@@ -26,5 +26,12 @@ button {
   background-color: white;
   width: 350px;
   margin: auto;
-  border: 2px solid grey;
+  border: 1px solid grey;
+}
+body {
+  background-color: #ffffff;
+  opacity: 1;
+  background-image:
+    repeating-radial-gradient(circle at 0 0, transparent 0, #ffffff 40px),
+    repeating-linear-gradient(#faf0e655, #faf0e6);
 }
